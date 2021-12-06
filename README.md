@@ -22,6 +22,14 @@ This is a solution that integrates the capacitive touch screen and the Raspberry
 
 ![image-20211130114421895](Hardware.png)
 
+### 2.1 Configuring jumpers
+
+Below pins are `RUN_PG`,`GLOBAL_EN`,`EEPROM_nWP`,`nRPIBOOT`. You need to set the jumpers according to your CM4.
+
+| SCH                      | PCB                  |
+| ------------------------ | -------------------- |
+| ![](Config_pins_sch.png) | ![](Config_pins.jpg) |
+
 ## 3. Software
 
 You need to install the screen driver first, the screen we used is CTP40, please follow the instruction [here](https://github.com/FYSETC/FYSETC-CTP40) to install the driver.
